@@ -1,0 +1,36 @@
+#buttons
+{
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 30px;
+	gap: 30px;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#scores
+{
+	display: grid;
+	justify-content: center;
+}
+
+body
+{
+	padding-top: 300px;
+}
+
+#result
+{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 25px;
+	color: red;
+}
+
+#finished
+{
+	font-size : 40px;
+	color: blue;
+	text-align: center;
+	margin-top: 40px;
+}
